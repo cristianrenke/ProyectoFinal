@@ -17,12 +17,9 @@ padding: 20px;
 }
 
 .main-contacto{
-
 min-height: 60vh;
 background-color:  #808080b9;
 padding: 30px;
-
-
 
 h3{
     @include estiloTexto (100px);
@@ -35,13 +32,21 @@ padding: 50px;
 }
 }
 .main-productos{
- max-width: 1300px;
 background-color:rgba(145, 143, 143, 0.747);
 padding: 50px;
  min-height: 60vh;
  list-style: none;
-  
+  li{
+    color: rgb(114, 7, 7);
+       
+    &:hover
+   {
+   color:black ;
+   font-weight: bold;
+   }
 
+
+  }
 }
 .main-comoComprar{
     background-color: #808080b9;
@@ -56,8 +61,9 @@ padding: 50px;
    }
    .main-galeria{
     background-color:rgba(145, 143, 143, 0.747);
-  h1{
-padding: 30px;
+    
+      h1{
+padding: 20px;
 
   }
    }
@@ -87,7 +93,7 @@ padding: 30px;
 
 .grid-container img{
 
-width: 150px;
+width: 250px;
 
 
 }

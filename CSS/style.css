@@ -59,11 +59,15 @@
     padding: 50px; }
 
 .main-productos {
-  max-width: 1300px;
   background-color: rgba(145, 143, 143, 0.747);
   padding: 50px;
   min-height: 60vh;
   list-style: none; }
+  .main-productos li {
+    color: #720707; }
+    .main-productos li:hover {
+      color: black;
+      font-weight: bold; }
 
 .main-comoComprar {
   background-color: #808080b9; }
@@ -78,7 +82,7 @@
 .main-galeria {
   background-color: rgba(145, 143, 143, 0.747); }
   .main-galeria h1 {
-    padding: 30px; }
+    padding: 20px; }
 
 .carou {
   padding: 20px;
@@ -111,7 +115,7 @@
   grid-area: 2 / 3 / 3 / 4; }
 
 .grid-container img {
-  width: 150px; }
+  width: 250px; }
 
 .grid-container {
   grid-template-columns: repeat(2, 1fr);
@@ -132,7 +136,7 @@
   align-items: flex-end;
   padding: auto;
   margin: auto;
-  flex-flow: nowrap; }
+  flex-direction: row-reverse; }
   .footer ul {
     display: flex;
     width: 300px;
